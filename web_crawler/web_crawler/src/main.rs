@@ -15,6 +15,7 @@ fn main() {
     let path = path.trim();
     println!("Running the crawler this may take a while ....");
 
+
     runtime.block_on(async {
         crawler.clone().crawl(url, 3).await; //MODIFY THE DEPT HERE EDIT THE NUMBER
         crawler.clone().save(path).await;
