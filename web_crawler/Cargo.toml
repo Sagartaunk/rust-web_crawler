@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "crawler",
+    "fetcher",
+    "parser",
+    "storage",
+    "web_crawler"
+]
+resolver = "3"

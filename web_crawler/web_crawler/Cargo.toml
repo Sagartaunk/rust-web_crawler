@@ -1,0 +1,8 @@
+[package]
+name = "web_crawler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crawler = { path = "../crawler" }
+tokio = { version = "1", features = ["full"] }
